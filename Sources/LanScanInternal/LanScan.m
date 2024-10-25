@@ -32,7 +32,7 @@
 #endif
 
 #ifndef deb
-#define deb(format, ...) {if(DEBUG){NSString *__oo = [NSString stringWithFormat: @"%s:%@", __PRETTY_FUNCTION__, [NSString stringWithFormat:format, ## __VA_ARGS__]]; NSLog(@"%@", __oo); }}
+#define deb(format, ...) (void)0
 #endif
 
 #define BUFLEN (sizeof(struct rt_msghdr) + 512)
