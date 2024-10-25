@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "LanScanner",
+    name: "LanScannerBondar",
     products: [
         .library(
             name: "LanScanner",
